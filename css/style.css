@@ -1,0 +1,76 @@
+/* osnovnoy cvet teksta #212121; */
+/* vtorichniy cvet teksta #757575; */
+/* akcent #2196F3; */
+/* beliy #FFFFFF; */
+
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --akcent-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+.header {
+  background: #ffffff;
+}
+.logo {
+  color: var(--akcent-color);
+}
+/* site nav */
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link-current:hover,
+.site-nav .link-current:focus {
+  color: var(--akcent-color);
+}
+.site-nav .link-current {
+  color: var(--akcent-color);
+}
+/* contacts */
+.contacts .link {
+  color: var(--secondary-text-color);
+}
+.contacts .link-email {
+  color: var(--secondary-text-color);
+}
+.contacts .link-email:hover,
+.contacts .link-email:focus {
+  color: var(--akcent-color);
+}
+
+/* hero */
+.section-hero {
+  background: #2f303a;
+}
+.section-hero .hero-title {
+  color: #ffffff;
+}
+.section-hero .hero-button {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+/* section */
+.section-title {
+  color: var(--primary-text-color);
+}
+.section-text {
+  color: var(--secondary-text-color);
+}
+.section-team {
+  background: #f5f4fa;
+}
+/* footer */
+.footer {
+  background: #2f303a;
+}
+.footer .address {
+  color: var(--white-color);
+}
+.footer .contact-address {
+  color: rgba(255, 255, 255, 0.6);
+}
