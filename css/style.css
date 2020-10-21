@@ -13,6 +13,7 @@
 ul {
   list-style: none;
 }
+
 .header {
   background: #ffffff;
 }
@@ -73,4 +74,17 @@ ul {
 }
 .footer .contact-address {
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* portfolio main */
+.features {
+  color: var(--primary-text-color);
+}
+.features .features-button {
+  background: #2196f3;
+  color: #ffffff;
+}
+.features .features-button:hover,
+.features .features-button:focus {
+  color: var(--akcent-color);
 }
