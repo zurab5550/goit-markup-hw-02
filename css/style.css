@@ -14,15 +14,31 @@ ul {
   list-style: none;
 }
 
+body {
+  font-family: Roboto, sans-serif;
+}
+
 .header {
   background: #ffffff;
 }
 .logo {
   color: var(--akcent-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
 }
 /* site nav */
+.site-nav {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .site-nav .link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .site-nav .link-current:hover,
 .site-nav .link-current:focus {
@@ -30,13 +46,21 @@ ul {
 }
 .site-nav .link-current {
   color: var(--akcent-color);
+  text-decoration: none;
 }
 /* contacts */
+.contacts {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .contacts .link {
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 .contacts .link-email {
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 .contacts .link-email:hover,
 .contacts .link-email:focus {
@@ -57,15 +81,31 @@ ul {
 
 /* section */
 .section-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
   color: var(--primary-text-color);
 }
 .section-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
   color: var(--secondary-text-color);
 }
 .section-team {
   background: #f5f4fa;
 }
 /* footer */
+.footer li {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
 .footer {
   background: #2f303a;
 }
@@ -75,16 +115,32 @@ ul {
 .footer .contact-address {
   color: rgba(255, 255, 255, 0.6);
 }
+.footer .accent {
+  color: var(--white-color);
+}
+/* button */
 
+button {
+  font-family: inherit;
+}
 /* portfolio main */
 .features {
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.features .link {
   color: var(--primary-text-color);
 }
 .features .features-button {
   background: #2196f3;
   color: #ffffff;
 }
-.features .features-button:hover,
-.features .features-button:focus {
+.features .features-button:hover {
   color: var(--akcent-color);
+}
+
+.accent {
+  color: var(--primary-text-color);
 }
