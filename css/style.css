@@ -22,14 +22,22 @@ body {
   background: #ffffff;
 }
 .logo {
+  color: var(--primary-text-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.accent {
   color: var(--akcent-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
-  text-decoration: none;
 }
+
 /* site nav */
 .navigation .link:hover,
 .navigation .link:focus {
@@ -188,7 +196,7 @@ body {
 .footer .contact-address {
   color: rgba(255, 255, 255, 0.6);
 }
-.footer .accent {
+.footer .logo {
   color: var(--white-color);
 }
 /* button */
@@ -209,9 +217,6 @@ button {
 
 .features .link:hover,
 .features .link:focus {
-  color: var(--akcent-color);
-}
-
-.accent {
-  color: var(--primary-text-color);
+  color: var(--white-color);
+  background: var(--akcent-color);
 }
