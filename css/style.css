@@ -39,16 +39,18 @@ body {
 }
 
 /* site nav */
-.navigation .link:hover,
-.navigation .link:focus {
-  color: var(--akcent-color);
-}
 
 .site-nav {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--akcent-color);
+}
+
 .site-nav .link {
   color: var(--primary-text-color);
   text-decoration: none;
@@ -71,17 +73,9 @@ body {
   color: var(--secondary-text-color);
   text-decoration: none;
 }
-.contacts .link-email {
-  color: var(--secondary-text-color);
-  text-decoration: none;
-}
-.contacts .link-email:hover,
-.contacts .link-email:focus {
-  color: var(--akcent-color);
-}
 
-.contacts .link-contacts:hover,
-.contacts .link-contacts:focus {
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--akcent-color);
 }
 
