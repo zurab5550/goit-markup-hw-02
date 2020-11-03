@@ -3,6 +3,18 @@
 /* akcent #2196F3; */
 /* beliy #FFFFFF; */
 
+/* spriatat element */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -193,6 +205,7 @@ body {
 .footer .logo {
   color: var(--white-color);
 }
+
 /* button */
 
 button {
